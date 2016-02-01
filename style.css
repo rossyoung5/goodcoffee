@@ -4,6 +4,11 @@ body{
 
 .jumbotron {
   margin-bottom: 0;
+  padding: 0;
+}
+
+#jumbopic {
+  width: 100%;
 }
 
 #mission {
@@ -13,5 +18,15 @@ body{
   font-size: 1.7em;
   font-weight: 500;
   padding: 40px 0;
+}
 
+#features {
+  background-color: #A2DED0;
+  padding: 20px 0;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.1em;
+}
+
+#feat_image {
+  margin-bottom: 10px;
 }
