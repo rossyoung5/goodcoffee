@@ -1,14 +1,16 @@
-body{
-  font-family: 'Muli', sans-serif;
-}
-
 .jumbotron {
+  background-image: url("barista.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   margin-bottom: 0;
-  padding: 0;
+  padding: 170px 0;
+  color: #D64541 ;
+
 }
 
-#jumbopic {
-  width: 100%;
+#welcome{
+  display:;
 }
 
 #mission {
