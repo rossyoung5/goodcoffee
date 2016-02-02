@@ -1,68 +1,60 @@
 .navbar {
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0, 0, 0, 0.7);
   border: none;
-  border-radius: 0px;
-}
-
+  border-radius: 0px; }
 
 .jumbotron {
+  background-color: #323232;
   background-image: url("barista.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   margin-bottom: 0;
   padding: 170px 0;
-  color: #D64541;
-}
+  color: #D64541; }
 
 #mission {
   background-color: #323232;
   color: #f7fafe;
-  font-family: 'Raleway', sans-serif;
+  font: "Raleway," sans-serif;
   font-size: 1.7em;
   font-weight: 500;
-  padding: 40px 0;
-}
+  padding: 40px 0; }
 
 #features {
   background-color: #A2DED0;
   padding: 20px 0;
-  font-family: 'Muli', sans-serif;
-  font-size: 1.1em;
-}
+  font-family: "Muli", sans-serif;
+  font-size: 1.1em; }
 
 #feat_image {
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
-footer{
+footer {
   color: #fff;
   background-color: #D64541;
-  padding: 30px 0;
-}
-
-footer a{
-  color: #fff;
-  margin-left: 10px;
-}
+  padding: 30px 0; }
+  footer a {
+    color: #fff;
+    margin-left: 10px; }
 
 .social .fa-facebook-official:hover {
-text-decoration: none;
-color: #3b5998;
-}
-
+  text-decoration: none;
+  color: #3b5998; }
 .social .fa-twitter:hover {
-text-decoration: none;
-color: #55acee;
-}
-
+  text-decoration: none;
+  color: #55acee; }
 .social .fa-instagram:hover {
-text-decoration: none;
-color: #3f729b;
-}
+  text-decoration: none;
+  color: #3f729b; }
 
 @media only screen and (max-width: 465px) {
   footer a {
-    margin-left: 5px;
-  }
-}
+    margin-left: 5px; } }
+@media only screen and (max-width: 372px) {
+  footer {
+    font-size: 0.8em; }
+    footer a {
+      margin: 0; } }
+
+/*# sourceMappingURL=style.css.map */
