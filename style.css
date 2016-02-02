@@ -1,3 +1,10 @@
+.navbar {
+  background-color: rgba(0,0,0,.7);
+  border: none;
+  border-radius: 0px;
+}
+
+
 .jumbotron {
   background-image: url("barista.jpg");
   background-size: cover;
@@ -5,12 +12,7 @@
   background-repeat: no-repeat;
   margin-bottom: 0;
   padding: 170px 0;
-  color: #D64541 ;
-
-}
-
-#welcome{
-  display:;
+  color: #D64541;
 }
 
 #mission {
@@ -31,4 +33,36 @@
 
 #feat_image {
   margin-bottom: 10px;
+}
+
+footer{
+  color: #fff;
+  background-color: #D64541;
+  padding: 30px 0;
+}
+
+footer a{
+  color: #fff;
+  margin-left: 10px;
+}
+
+.social .fa-facebook-official:hover {
+text-decoration: none;
+color: #3b5998;
+}
+
+.social .fa-twitter:hover {
+text-decoration: none;
+color: #55acee;
+}
+
+.social .fa-instagram:hover {
+text-decoration: none;
+color: #3f729b;
+}
+
+@media only screen and (max-width: 465px) {
+  footer a {
+    margin-left: 5px;
+  }
 }
